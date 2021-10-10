@@ -238,4 +238,15 @@ public class EasyReader extends BufferedReader {
         prompt(s);
         return readBoolean();
     }
+
+    /**
+     * Close the reader
+     */
+    public void close() {
+        try {
+            super.close();
+        } catch (IOException e) {
+            System.out.println("Catch IOException.");
+        }
+    }
 }
