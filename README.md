@@ -31,7 +31,7 @@ Autumn 2021 by Gotoh Yoshi
 ## Upcomming
 - [x] Week 1 - Introduction to Java
 - [x] Week 2 - Classes and inheritance  
-- [ ] :triangular_flag_on_post: Week 3 - Abstract classes and interfaces
+- [x] Week 3 - Abstract classes and interfaces
 - [ ] ...
 
 ## Contributing

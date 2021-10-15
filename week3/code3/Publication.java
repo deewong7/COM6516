@@ -14,36 +14,37 @@ public class Publication {
     // the first constructor sets the instance fields of the class to default
     // values if no arguments are supplied
     public Publication() {
-	title = "default";
-	author = "default";
-	isbn = 0;
-	numPages = 0;
+        title = "default";
+        author = "default";
+        isbn = 0;
+        numPages = 0;
     }
 
     // the second constructor sets the instance fields to values specified in
     // the arguments supplied
     public Publication(String t, String a, int i, int n) {
-	title = t;
-	author = a;
-	isbn = i;
-	numPages = n;
+        title = t;
+        author = a;
+        isbn = i;
+        numPages = n;
     }
 
     // methods
     public String toString() {
-	return(this.getClass().getName() +
-	       "[title=\"" + title + "\",author=\"" + author +
-	       "\",isbn=" + isbn + ",numPages=" + numPages + "]");
+        return (this.getClass().getName() + "[title=\"" + title + "\",author=\"" + author + "\",isbn=" + isbn
+                + ",numPages=" + numPages + "]");
     }
 
     public String getTitle() {
-	return title;
+        return title;
     }
+
     public String getAuthor() {
-	return author;
+        return author;
     }
+
     public int getNumPages() {
-	return numPages;
+        return numPages;
     }
 
     // instance fields
