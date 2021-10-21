@@ -32,6 +32,7 @@ Autumn 2021 by Gotoh Yoshi
 - [x] Week 1 - Introduction to Java
 - [x] Week 2 - Classes and inheritance  
 - [x] Week 3 - Abstract classes and interfaces
+- [ ] Week 4 - OO system modelling and design
 - [ ] ...
 
 ## Contributing
