@@ -1,3 +1,4 @@
+
 /** 
 * Shape.java
 *
@@ -19,25 +20,28 @@ public abstract class Shape {
     private int y;
 
     public Shape() {
-	this(0, 0);
+        this(0, 0);
     }
+
     public Shape(int x, int y) {
-	setPosition(x, y);
+        setPosition(x, y);
     }
 
     public void setPosition(int xval, int yval) {
-	x = xval;
-	y = yval;
+        x = xval;
+        y = yval;
     }
 
     public int getX() {
-	return x;
+        return x;
     }
+
     public int getY() {
-	return y;
+        return y;
     }
 
     public abstract int area();
+
     public abstract void draw(EasyGraphics g);
 
 }

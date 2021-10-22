@@ -17,22 +17,22 @@
 import sheffield.*;
 
 public class ShapeDemo {
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 
-	EasyGraphics g = new EasyGraphics(300, 300);
-	g.clear();
-	Shape[] list = new Shape[5];
+		EasyGraphics g = new EasyGraphics(300, 300);
+		g.clear();
+		Shape[] list = new Shape[5];
 
-	// fill the array with shapes
-	list[0] = new Rectangle(150, 150, 40, 70);
-	list[1] = new Circle(110, 90, 70);
-	list[2] = new Circle(110, 190, 30);
-	list[3] = new Rectangle(170, 180, 90, 50);
-	list[4] = new Circle(150, 150, 30);
+		// fill the array with shapes
+		list[0] = new Rectangle(150, 150, 40, 70);
+		list[1] = new Circle(110, 90, 70);
+		list[2] = new Circle(110, 190, 30);
+		list[3] = new Rectangle(170, 180, 90, 50);
+		list[4] = new Circle(150, 150, 30);
 
-	// now update the display
-	for (int i = 0; i < 5; i++) {
-	    list[i].draw(g);
+		// now update the display
+		for (int i = 0; i < 5; i++) {
+			list[i].draw(g);
+		}
 	}
-    }
 }

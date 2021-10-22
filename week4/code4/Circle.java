@@ -18,24 +18,23 @@ import sheffield.*;
 
 public class Circle extends Shape {
 
-    private static final int NUM_STEPS = 100;
-    private int radius;
+	private static final int NUM_STEPS = 100;
+	private int radius;
 
-    public Circle(int x, int y, int r) {
-	super(x, y);
-	radius = r;
-    }
-
-    public int area() {
-	return (int) Math.PI*radius*radius;
-    }
-
-    public void draw(EasyGraphics g) {
-	g.moveTo(getX(), getY() + radius);
-	for (int i = 0; i <= NUM_STEPS; i++) {
-	    double w = i*2*Math.PI / NUM_STEPS;
-	    g.lineTo((int)(getX() + radius*Math.sin(w)),
-		     (int)(getY() + radius*Math.cos(w)));
+	public Circle(int x, int y, int r) {
+		super(x, y);
+		radius = r;
 	}
-    }
+
+	public int area() {
+		return (int) Math.PI * radius * radius;
+	}
+
+	public void draw(EasyGraphics g) {
+		g.moveTo(getX(), getY() + radius);
+		for (int i = 0; i <= NUM_STEPS; i++) {
+			double w = i * 2 * Math.PI / NUM_STEPS;
+			g.lineTo((int) (getX() + radius * Math.sin(w)), (int) (getY() + radius * Math.cos(w)));
+		}
+	}
 }
