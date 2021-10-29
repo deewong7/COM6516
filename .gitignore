@@ -2,3 +2,5 @@ desktop/
 .DS_Store
 
 *.zip
+Exams/
+test*
