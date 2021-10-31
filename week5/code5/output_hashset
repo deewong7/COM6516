@@ -1,0 +1,14 @@
+** People in the list:
+Person[firstName="Joey",surname="Barton",age=22], hash code: 43559387
+Person[firstName="David",surname="James",age=34], hash code: 2046098398
+Person[firstName="Andrew",surname="Cole",age=34], hash code: -917599980
+
+** Using Person class comparator:
+Person[firstName="Joey",surname="Barton",age=22] compared to Person[firstName="Joey",surname="Barton",age=22] returns 0
+Person[firstName="Joey",surname="Barton",age=22] compared to Person[firstName="David",surname="James",age=34] returns -8
+Person[firstName="Joey",surname="Barton",age=22] compared to Person[firstName="Andrew",surname="Cole",age=34] returns -1
+
+** Using AgeComparator:
+Person[firstName="Joey",surname="Barton",age=22] compared to Person[firstName="Joey",surname="Barton",age=22] returns 0
+Person[firstName="Joey",surname="Barton",age=22] compared to Person[firstName="David",surname="James",age=34] returns 12
+Person[firstName="Joey",surname="Barton",age=22] compared to Person[firstName="Andrew",surname="Cole",age=34] returns 12
